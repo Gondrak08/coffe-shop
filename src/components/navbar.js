@@ -14,7 +14,7 @@ export default class navbar extends Component {
                 text:'Home'
             },{
                 id:2,
-                path:'/',
+                path:'/about',
                 text:'about'
             },
         ]
