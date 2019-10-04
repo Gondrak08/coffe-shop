@@ -7,15 +7,18 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import {StaticQuery, graphql} from 'gatsby'
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import "./layout.css"
+
+
 
 import Navbar from './navbar';
 import Footer from './footer';
 
 const Layout = ({ children }) => (
+  
   <>
   <Navbar />
   {children}
